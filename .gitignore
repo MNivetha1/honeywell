@@ -1,0 +1,31 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+.pytest_cache/
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# Database & Runtime Output
+data/app.db
+data/app.db-journal
+data/app.db-wal
+data/app.db-shm
+data/masks/*.png
+reports/*.json
+reports/*.xlsx
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

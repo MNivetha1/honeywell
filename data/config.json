@@ -1,0 +1,28 @@
+{
+  "image_processing": {
+    "resize": true,
+    "width": 512,
+    "height": 512,
+    "blur": 1.2,
+    "morphology": true
+  },
+  "feature_exclusion": {
+    "exclude_text": true,
+    "exclude_icons": true,
+    "exclude_arc_lines": true,
+    "exclude_legend": true
+  },
+  "alignment": {
+    "alignment_enabled": true,
+    "max_shift_pixels": 8
+  },
+  "scoring": {
+    "overlap_weight": 40.0,
+    "intensity_weight": 30.0,
+    "area_weight": 20.0,
+    "spatial_weight": 10.0
+  },
+  "decision": {
+    "threshold_percent": 90.0
+  }
+}
